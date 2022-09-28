@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função</title>
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+        .box {
+            height: calc(100% + 40px); /* Esta função "calc" o body não possui uma altura pré definida, então precisamos definir  */
+            width: 100px;
+            background-image: url(http://source.unsplash.com/random);
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        .box::after { 
+            /* 
+            Strings e indentificadores
+
+            -> Strings: texto envolta de aspas
+            -> Identificadores: red, black, gold etc
+             */
+            content: "Aqui vem alguma mensagem";
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
