@@ -1,4 +1,4 @@
-``` css
+``` html
 class — além de classificar as Tags, é usada para aplicar estilo css e também para acessar com o Java Script.
 <div class="conteúdo">
 </div>
