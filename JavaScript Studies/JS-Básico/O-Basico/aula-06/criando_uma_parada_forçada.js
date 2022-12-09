@@ -1,4 +1,4 @@
-//ligar();
+ligar();
 
 var temperatura = 100
 
