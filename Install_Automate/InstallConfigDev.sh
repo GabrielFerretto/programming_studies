@@ -39,5 +39,20 @@ then
 	echo "Installation error check name or software requirements"
 fi
 
+if ! sudo apt install htop -y;
+then
+	echo "Install Softwarer Monitor System"
+fi
+
+if ! sudo apt install tmux -y;
+then
+	echo "Virtual Terminals"
+fi
+
+if ! sudo apt install scanner -y;
+then
+	echo "Other solution for virtual terminals"
+fi
+
 echo FNISH
 
