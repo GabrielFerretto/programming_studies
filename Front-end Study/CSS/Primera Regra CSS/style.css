@@ -1,0 +1,30 @@
+
+body{
+    background-color:#D8BFD8;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1,h2,p{
+    color: #A020F0;
+}
+
+h1{
+    font-style: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    font-variant: small-caps;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
